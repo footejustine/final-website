@@ -1,0 +1,140 @@
+
+body{
+	 font-family: 'Open Sans', sans-serif;
+	 color: white;
+	 font-size: 18pt;
+}
+#logo {
+	width: auto;
+	height: 50px;
+	float: left;
+}
+
+#menu {
+  background: #f96e5b;
+  width: auto;
+  height: 50px;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#menu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#menu ul li {
+	float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#menu ul li ul {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+}
+#menu ul li:hover ul {
+	visibility: visible;
+	width: 200px;
+	height: auto;
+	background: #f96e5b;; 
+
+}
+#menu.align-right ul li {
+  float: right;
+}
+#menu.align-center ul {
+  text-align: center;
+}
+#menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+}
+#menu ul li a:hover {
+  color: #333333;
+}
+#menu ul li a:hover:before {
+  width: 100%;
+}
+#menu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#menu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+}
+#menu ul li.last > a:after,
+#menu ul li:last-child > a:after {
+  display: none;
+}
+#menu ul li.active a {
+  color: #333333;
+}
+#menu ul li.active a:before {
+  width: 100%;
+}
+#menu.align-right li.last > a:after,
+#menu.align-right li:last-child > a:after {
+  display: block;
+}
+#menu.align-right li:first-child a:after {
+  display: none;
+}
+
+#text{
+  width: 160px
+}
+
+
+#outer_container {
+	margin: auto 10px;
+	background-color: #006699;
+	height: 800px;
+	text-align: center;
+}
+
+#content {
+    width: 800px;
+    background-color: #333399;
+    margin : 0 auto;
+    padding-top:  10px;
+    padding-left:  20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+
+textarea {
+    width: 550px;
+    height: 550px;
+    border: 2px solid #ccc;
+}

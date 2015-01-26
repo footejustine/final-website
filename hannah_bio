@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Meet Us </title>
+	<link rel = "stylesheet" type = "text/css" href = "bio.css">
+</head>
+<body>
+	<div id = "outer_container">
+		<a href = "attempt.html">
+		<img id = "logo" src = "images/334.gif" alt = "334_logo"/> </a>
+		<div id = "menu">
+			<ul>
+				<li> <a href = "about.html"> ABOUT </a></li>
+				<li> <a href = "meet.html"> MEET US </a>
+					<br style = "clear: both"/>
+					<ul>
+						<li><a href= "kelly_bio.html">Kelly Barnhardt</a></li>
+						<li><a href = "hannah_bio.html">Hannah Bowers </a></li>
+						<li><a href = "kc_bio.html">K.C. Brunson </a></li>
+						<li><a href = "justine_bio.html">Justine Foote </a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<br style = "clear:both"/>
+		<img id = "face" alt = "kelly_photo" src = "images/KB.jpg"/>
+		<div id = "info" >
+			Kelly is a self proclaimed Bronco's fan and will defend them until she dies. She's loving all of her ITP classes this semseter and is looking forward to continuing them in the Spring. 
+			<br/>
+			She is a dancing fool and loves to show off her "sick moves." She spent all summer in Los Angeles and enjoys going to the beach whenver she gets the opportunity.
+		</div>
+
+	</div>
+</body>
+</html>

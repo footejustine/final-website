@@ -1,0 +1,149 @@
+
+body{
+	 font-family: 'Open Sans', sans-serif;
+	 color: white;
+
+}
+#logo {
+	width: auto;
+	height: 50px;
+	float: left;
+}
+
+#menu {
+  background: #f96e5b;
+  width: auto;
+  height: 50px;
+}
+#menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  display: block;
+  zoom: 1;
+}
+#menu ul:after {
+  content: " ";
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+#menu ul li {
+	float: left;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+}
+#menu ul li ul {
+	visibility: hidden;
+	position: absolute;
+	top: 50px;
+}
+#menu ul li:hover ul {
+	visibility: visible;
+	width: 200px;
+	height: auto;
+	background: #f96e5b;; 
+
+}
+#menu.align-right ul li {
+  float: right;
+}
+#menu.align-center ul {
+  text-align: center;
+}
+#menu ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  display: block;
+  padding: 15px 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+}
+#menu ul li a:hover {
+  color: #333333;
+}
+#menu ul li a:hover:before {
+  width: 100%;
+}
+#menu ul li a:after {
+  content: "";
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #ffffff;
+  opacity: .5;
+}
+#menu ul li a:before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+}
+#menu ul li.last > a:after,
+#menu ul li:last-child > a:after {
+  display: none;
+}
+#menu ul li.active a {
+  color: #333333;
+}
+#menu ul li.active a:before {
+  width: 100%;
+}
+#menu.align-right li.last > a:after,
+#menu.align-right li:last-child > a:after {
+  display: block;
+}
+#menu.align-right li:first-child a:after {
+  display: none;
+}
+
+
+#outer_container {
+	margin: auto 10px;
+	background-color: #006699;
+	height: 800px;
+}
+.main_picture{
+	padding: 20px 5px;
+	width: auto;
+	height: 200px;
+	border-radius: 100px;
+}
+#info{
+margin: auto 10px;	
+width: auto;
+}
+
+table{
+
+	border-collapse:collapse;
+}
+li {
+	list-style: none}
+	
+#kelly_info{
+	display: none;
+}
+#hannah_info{
+	display:none;
+}
+#KC_info{
+	display: none;
+}
+#Justine_info{
+	display:none;
+}

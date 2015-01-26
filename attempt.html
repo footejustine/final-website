@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Justine Foote's Final Project </title>
+	<link rel = "stylesheet" type = "text/css" href="style.css">
+	<script src="jQueryAssets/jquery-1.11.1.min.js" type="text/javascript"></script>
+	<script src="jQueryAssets/jquery-ui-effects.custom.min.js" type="text/javascript"></script>
+	<script type="text/javascript">
+function MM_DW_effectFade(obj,method,effect,speed)
+{
+    obj[method](effect, {}, speed);
+}
+function MM_DW_effectDrop(obj,method,effect,dir,speed)
+{
+    obj[method](effect, { direction: dir}, speed);
+}
+function MM_DW_effectHighlight(obj,method,effect,color,speed)
+{
+    obj[method](effect, {color:color}, speed);
+}
+function MM_DW_effectSlide(obj,method,effect,direction,distance,speed)
+{
+    obj[method](effect, { direction: direction, distance: distance}, speed);
+}
+    </script>
+</head>
+<body>
+	<div id = "outer_container"> 
+		<a href = "attempt.html">
+		<img id = "logo" src = "images/334.gif" alt = "334_logo"/> </a>
+		<div id = "menu">
+			<ul>
+				<li> <a href = "about.html"> ABOUT </a></li>
+				<li> <a href = "meet.html"> MEET US </a>
+					<br style = "clear: both"/>
+					<ul>
+						<li><a href= "kelly_bio.html">Kelly Barnhardt</a></li>
+						<li><a href = "hannah_bio.html">Hannah Bowers </a></li>
+						<li><a href = "kc_bio.html">K.C. Brunson </a></li>
+						<li><a href = "justine_bio.html">Justine Foote </a></li>
+					</ul>
+				</li>
+				<li> <a href = "blog.html"> BLOG </a> </li>
+
+			</ul>
+		</div>
+		<div id = "info">
+		  <div align="left"></div>
+		  <p> Click on a picture to learn more about the person </p>
+		  <table style = "margin-left: 100px;">
+		    <tbody>
+		      <tr>
+		        <td><img src = "images/KB.jpg" alt = "Kelly_Barnhard" class = "main_picture" id = "kelly_picture" onClick="MM_DW_effectFade($('#kelly_info'),'show','fade',1000)"/></td>
+		        <td><img src = "images/HB.jpg" alt = "Hannah_Bowers" class = "main_picture" onClick="MM_DW_effectDrop($('#hannah_info'),'show','drop','left',1000)"/></td>
+		        <td><img src = "images/KCB.jpg" alt = "KC Brunson" class = "main_picture" onClick="MM_DW_effectHighlight($('#KC_info'),'show','highlight','#ffff99',1000)"/></td>
+		        <td><img src = "images/JF.jpg" alt = "Justine Foote" class = "main_picture" onClick="MM_DW_effectSlide($('#Justine_info'),'show','slide','right',20,1000)"/></td>
+	          </tr>
+		      <tr>
+		        <td>
+
+		        <div id = "kelly_info"><ul>
+		          <li style = "font-size: 14pt"> Kelly Barnhard </li>
+		          <li> Major: Industrial Systems Engineering </li>
+		          <li> Hometown: Rye, New York </li>
+		          <li> Always has perfect hair </li>
+	            </ul></div></td>
+		        <td><div id = "hannah_info"><ul>
+		          <li style = "font-size: 14pt;"> Hannah Bowers </li>
+		          <li> Major: Music Industry </li>
+		          <li> Hometown: Los Gatos, California </li>
+		          <li> Aspiring Singer-Songwriter </li>
+	            </ul></div></td>
+		        <td><div id = "KC_info"><ul>
+                <li style = "font-size: 14pt"> K.C. Brunson </li>
+                <li> Major: Mechanical Engineering </li>
+                <li> Hometown: Agoura Hills, California </li>
+                <li> First Trojan in a family of Bruins</li></ul></div></td>
+		        <td><div id = "Justine_info"><ul>
+                <li style = "font-size: 14pt"> Justine Foote</li>
+                <li> Major: Computer Science Business Adminisration</li>
+                <li> Hometown: Baltimore, Maryland</li>
+                <li> Disneyland Annual Passholder </li>
+                </ul></div></td>
+	          </tr>
+	        </tbody>
+	      </table>
+		  <br/>
+        <div id = "text info"></div>
+	</div>
+
+	</div>
+
+		</body>
+		</html>
